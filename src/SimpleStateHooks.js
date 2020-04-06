@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function SimpleHooks() {
+export default function SimpleStateHooks() {
     const [counter, setCounter] = useState(10);
     const [name, setName] = useState("Test");
 

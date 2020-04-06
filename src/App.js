@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import SimpleHooks from "./SimpleHooks";
+import SimpleStateHooks from "./SimpleStateHooks";
 
 export default class App extends Component {
     render() {
         return (
             <div>
-                <SimpleHooks />
+                <SimpleStateHooks />
             </div>
         );
     }
