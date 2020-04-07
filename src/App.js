@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SimpleStateHooks from "./SimpleStateHooks";
 import SimpleEffectHooks from "./SimpleEffectHooks";
 import StateHookWithPreviousState from "./StateHookWithPreviousState";
+import StateHookWithObject from "./StateHookWithObject";
 
 export default class App extends Component {
     render() {
@@ -10,6 +11,7 @@ export default class App extends Component {
                 <SimpleStateHooks />
                 <SimpleEffectHooks />
                 <StateHookWithPreviousState />
+                <StateHookWithObject />
             </div>
         );
     }
