@@ -18,7 +18,7 @@ function Clock() {
     const [time, setTime] = useState("--:--:--");
 
     const handleClick = () => {
-        console.log("Clock: button clicked");
+        console.log("Clock: button clicked --> update 'clicks' and 'time'");
         setClicks(clicks + 1);
         updateClock();
     };
