@@ -32,7 +32,7 @@ export default function SimpleEffectHooks() {
 }
 
 const style = {
-    background: "#ddd",
+    background: "#eee",
     padding: "10px",
     margin: "10px",
 };
