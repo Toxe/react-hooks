@@ -5,6 +5,7 @@ export default function ConditionalEffects() {
 
     return (
         <div style={style}>
+            <h1>ConditionalEffects</h1>
             <div>
                 <button onClick={() => setClockVisible(!clockVisible)}>Toggle Clock</button>
             </div>

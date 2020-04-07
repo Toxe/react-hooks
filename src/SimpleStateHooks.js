@@ -6,6 +6,7 @@ export default function SimpleStateHooks() {
 
     return (
         <div style={style}>
+            <h1>SimpleStateHooks</h1>
             <div>Counter = {counter}</div>
             <div>
                 <button onClick={() => setCounter(counter - 1)}>-</button>

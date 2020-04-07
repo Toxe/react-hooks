@@ -5,6 +5,7 @@ export default function StateHookWithObject() {
 
     return (
         <div style={style}>
+            <h1>StateHookWithObject</h1>
             <div>
                 <input type="text" value={user.name} onChange={(e) => setUser({ ...user, name: e.target.value })} />
                 name: "{user.name}"

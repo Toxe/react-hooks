@@ -20,6 +20,7 @@ export default function SimpleEffectHooks() {
 
     return (
         <div style={style}>
+            <h1>SimpleEffectHooks</h1>
             <div>
                 <em>Look at Console for effect log messages</em>
             </div>
