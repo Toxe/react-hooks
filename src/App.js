@@ -6,6 +6,7 @@ import StateHookWithObject from "./StateHookWithObject";
 import ConditionalEffects from "./ConditionalEffects";
 import ContextHook from "./ContextHook";
 import CustomHook from "./CustomHook";
+import CallbackHook from "./CallbackHook";
 
 export default class App extends Component {
     render() {
@@ -18,6 +19,7 @@ export default class App extends Component {
                 <ConditionalEffects />
                 <ContextHook />
                 <CustomHook />
+                <CallbackHook />
             </div>
         );
     }
